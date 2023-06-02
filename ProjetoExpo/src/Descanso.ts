@@ -10,4 +10,8 @@ class Descanso {
         this.semanas = -1;
         this.emogi = "";
     }
+
+    public defineHorasDescanso(valor: number): void {
+        this.horasDescansadas = valor;
+    }
 }
